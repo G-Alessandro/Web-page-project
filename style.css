@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /*font-family: 'Roboto', sans-serif;*/
+    background-color: #1f2937;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 250px;
+}
+
+.link-container {
+    display: flex;
+    gap: 20px;
+}
+
+.link-container a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container-3 {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.hero {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-item {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 30px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    border: none;
+}
+
+.button a {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.sea-image {
+    width: 400px;
+    height: auto;
+}
+
+.container-4 {
+    background: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.information {
+
+}
