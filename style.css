@@ -149,6 +149,8 @@ body {
     background-color: #f9faf8;
     justify-content: center;
     align-items: center;
+    display: flex;
+    padding: 90px 80px;
 }
 
 .container-8 {
@@ -156,18 +158,34 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #3882f6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 8px;
 }
 
 .container-9 {
-
+    color: white;
 }
 
 .text {
-
+    font-size: 24px;
+    font-weight: bolder
 }
 
 .text-2 {
-
+    font-size: 16px;
 }
 
-.button-2
+.button.button-2 {
+    border: 3px solid white;
+}
+
+.container-10 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 90px;
+    font-weight: 700;
+}
